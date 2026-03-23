@@ -1,0 +1,15 @@
+name: SKbossbea
+version: 1.0
+main: saki4.skbossbea.SKbossbea
+api-version: 1.16
+depend: [WorldEdit, WorldGuard]
+commands:
+  bossbea:
+    description: Основная команда плагина
+permissions:
+  bossbea.admin:
+    description: Доступ ко всем командам (setspawn, start, reload)
+    default: op
+  bossbea.delay:
+    description: Доступ к просмотру времени до следующего ивента
+    default: true
